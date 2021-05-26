@@ -1,0 +1,11 @@
+@import 'styles/index.scss';
+
+.container {
+  margin-top: $spacer / 2;
+  display: flex;
+  flex-direction: column;
+
+  .alert {
+    margin-bottom: $spacer / 2;
+  }
+}

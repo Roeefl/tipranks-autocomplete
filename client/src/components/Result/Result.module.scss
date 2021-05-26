@@ -1,0 +1,39 @@
+@import 'styles/index.scss';
+
+.result {
+  height: 200px;
+  padding: $spacer / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+  & > * {
+    margin: $spacer / 3;
+  }
+
+  .label {
+    font-size: $font-size-xl;
+  }
+
+  .category {
+    font-size: $font-size-md;
+  }
+
+  .uid {
+    font-size: $font-size-base;
+  }
+
+  .preview {
+    justify-self: flex-end;
+  }
+
+  &:hover {
+    background: $primary;
+    color: white;
+
+    .uid {
+      color: $dark;
+    }
+  }
+}

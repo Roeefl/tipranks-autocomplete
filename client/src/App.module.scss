@@ -1,0 +1,13 @@
+@import 'styles/index.scss';
+
+.app {
+  position: relative;
+
+  .header {
+    padding: $spacer * 2 $spacer;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}
